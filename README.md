@@ -39,4 +39,4 @@
 Why do we need to use [`ObjectId`](https://mongodb.github.io/node-mongodb-native/api-bson-generated/objectid.html) from the MongoDB driver?
 **If we need to query the database for a `document`, we need to be able to do so with the `_id` of the `document`. An `_id` is instance is created using the `ObjectID` constructor.**
 
-[dataflow_diagram](images/data_flow.png)
+![dataflow_diagram](images/data_flow.png)
